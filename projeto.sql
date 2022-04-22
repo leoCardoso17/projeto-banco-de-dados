@@ -1,0 +1,30 @@
+CREATE DATABASE Animes_Shounen;
+
+CREATE TABLE LISTA_ANIMES
+(NOME VARCHAR(50) NOT NULL,
+DATA_LANCAMENTO DATE NULL,
+CRIADOR VARCHAR(50),
+GENERO VARCHAR(200) NULL,
+EPISODIOS VARCHAR(50) NULL,
+TEMPORADAS VARCHAR(50) NULL,
+PRIMARY KEY (NOME));
+
+INSERT INTO LISTA_ANIMES 
+(NOME, DATA_LANCAMENTO, CRIADOR, GENERO, 
+EPISODIOS, TEMPORADAS) VALUES 
+('Fullmetal Aclchimist', '2009 - 2010', 'Bone', 'Ação, Fantasia Sombria, Drama,
+Ficção cientifica, Aventura', '64', '1');
+
+INSERT INTO LISTA_ANIMES 
+(NOME, DATA_LANCAMENTO, CRIADOR, GENERO, 
+EPISODIOS, TEMPORADAS) VALUES
+('Hunter x Hunter', '2010 - 2014', 'Yoshihiro Togashi', 
+'Ficção Cientifica, Fantasia, Artes masrciais', '140', '5');
+
+INSERT INTO LISTA_ANIMES 
+(NOME, DATA_LANCAMENTO, CRIADOR, GENERO, 
+EPISODIOS, TEMPORADAS) VALUES 
+('Dragon Ball Z', '1982 - 1996', 'Akira Toriyama, Takao Koyama',
+ 'Ação, Aventura, Comédia, Drama, Artes marciais, Suspense', '291', '5');
+ 
+ 
